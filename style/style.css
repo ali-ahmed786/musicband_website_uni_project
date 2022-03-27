@@ -96,6 +96,7 @@ li {
     background: -o-linear-gradient(rgb(171, 8, 1), #CF4F36, #4421CF, rgb(43, 224, 243));
     background: linear-gradient(rgb(171, 8, 1), #CF4F36, #4421CF, rgb(43, 224, 243));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'mandatory-plaything-Regular';
     font-weight: bold;
