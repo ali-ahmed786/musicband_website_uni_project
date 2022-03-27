@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Mailing List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div id="header">
+
+        <button id="menuicon" class="center" onclick="showNav()">≡</button>
+        <div id="navigation">
+
+            <button class="center" id="closebtn" onclick="hideNav()">✖</button><br>
+            <div id="navmenu">
+
+                <a href="index.html" class="navitem">
+                   Home 🏠
+                </a>
+                <a href="music.html" class="navitem">
+                   Music ♪
+                </a>
+                <a href="events.html" class="navitem">
+                  Hall of Fame
+                </a>
+                <a href="contacts.html" class="bshadow active navitem">
+                    Mailing List 
+                </a>
+            </div>
+        </div>
+        <h1 id="headerText"> MAILING LIST</h1>
+
+        <img id="headerImg" src="assets/nef1.png" alt="Neffex Fire and Ice themed Color Changing Logo">
+    </div>
+    <div class="spikes"></div>
+
+
+
+    <div id="mainBody">
+
+        <form onsubmit="return false">
+            <label for="inpName">Name</label><br>
+            <input type="text" id="inpName" name="inpName" placeholder="Type your full name here..." required><br>
+            <label for="inpEmail">Email</label><br>
+            <input type="email" id="inpEmail" name="inpEmail" placeholder="Type your email address here..." required><br>
+            <button type="submit" value="Submit" id="submitMail" onclick="submitToMailing()">Submit</button>
+
+        </form>
+        <div id="respBox"></div>
+    </div>
+    <div id="footer">
+        <img src="assets/neflog.png" alt="Neffex Logo" id="footerimg">
+        <a href="https://www.facebook.com/Neffexmusic"><img src="assets/facebook.png" alt="Facebook icon" class="socialicon"></a>
+        <a href="https://www.instagram.com/neffex/?hl=en" ><img src="assets/instagram.png" alt="Instagram icon" class="socialicon"></a>
+        <a href="https://twitter.com/neffex?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="assets/twitter.png" alt="Twitter icon" class="socialicon"></a>
+        <a href="https://www.youtube.com/channel/UCBefBxNTPoNCQBU_Lta6Nvg" ><img src="assets/youtube.png" alt="Youtube icon" class="socialicon"></a>
+    </div>
+    <script src="script/navigation.js"></script>
+    <script src="script/mailinglist.js"></script>
+</body>
+
+</html>

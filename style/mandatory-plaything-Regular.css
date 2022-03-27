@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'mandatory-plaything-Regular';
+  src: url('mandatory-plaything-Regular.eot');
+  src: url('mandatory-plaything-Regular.eot?#') format('embedded-opentype'),
+      url('mandatory-plaything-Regular.woff') format('woff'),
+      url('mandatory-plaything-Regular.ttf') format('truetype');
+}
